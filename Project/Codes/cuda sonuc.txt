@@ -1,0 +1,30 @@
+WITH CUDA:
+----------------------------------------------------------
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 0.053
+Detection (3 images)     : 2.003
+Output Processing        : 0.000
+Drawing Boxes            : 0.076
+Average time_per_img     : 0.711
+----------------------------------------------------------
+
+
+*** *** *** *** *** *** *** *** ***
+
+WITHOUT CUDA:
+----------------------------------------------------------
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 0.060
+Detection (3 images)     : 4.165
+Output Processing        : 0.000
+Drawing Boxes            : 0.051
+Average time_per_img     : 1.426
+----------------------------------------------------------
